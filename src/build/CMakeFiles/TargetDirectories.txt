@@ -1,0 +1,3 @@
+/home/alex/streaming/alexstudystream/src/build/CMakeFiles/rebuild_cache.dir
+/home/alex/streaming/alexstudystream/src/build/CMakeFiles/edit_cache.dir
+/home/alex/streaming/alexstudystream/src/build/CMakeFiles/tcpserver.dir

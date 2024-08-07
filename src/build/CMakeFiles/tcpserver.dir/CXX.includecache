@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alex/streaming/alexstudystream/src/Socket.cpp
+Socket.h
+/home/alex/streaming/alexstudystream/src/Socket.h
+sys/socket.h
+-
+unistd.h
+-
+iostream
+-
+SocketUtil.h
+/home/alex/streaming/alexstudystream/src/SocketUtil.h
+netinet/in.h
+-
+arpa/inet.h
+-
+
+/home/alex/streaming/alexstudystream/src/Socket.h
+
+/home/alex/streaming/alexstudystream/src/SocketUtil.h
+
