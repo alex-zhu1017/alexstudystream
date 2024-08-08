@@ -24,6 +24,8 @@ private:
     
     static const int kInitEventListSize = 1024;
 
+    static const char* operationToString(int op);
+
     typedef std::vector<struct epoll_event> EventList;
     int epollfd_;
     EventList events_;

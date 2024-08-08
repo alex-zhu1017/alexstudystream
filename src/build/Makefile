@@ -339,6 +339,33 @@ SocketUtil.cpp.s:
 	$(MAKE) -f CMakeFiles/tcpserver.dir/build.make CMakeFiles/tcpserver.dir/SocketUtil.cpp.s
 .PHONY : SocketUtil.cpp.s
 
+TcpConnection.o: TcpConnection.cpp.o
+
+.PHONY : TcpConnection.o
+
+# target to build an object file
+TcpConnection.cpp.o:
+	$(MAKE) -f CMakeFiles/tcpserver.dir/build.make CMakeFiles/tcpserver.dir/TcpConnection.cpp.o
+.PHONY : TcpConnection.cpp.o
+
+TcpConnection.i: TcpConnection.cpp.i
+
+.PHONY : TcpConnection.i
+
+# target to preprocess a source file
+TcpConnection.cpp.i:
+	$(MAKE) -f CMakeFiles/tcpserver.dir/build.make CMakeFiles/tcpserver.dir/TcpConnection.cpp.i
+.PHONY : TcpConnection.cpp.i
+
+TcpConnection.s: TcpConnection.cpp.s
+
+.PHONY : TcpConnection.s
+
+# target to generate assembly for a file
+TcpConnection.cpp.s:
+	$(MAKE) -f CMakeFiles/tcpserver.dir/build.make CMakeFiles/tcpserver.dir/TcpConnection.cpp.s
+.PHONY : TcpConnection.cpp.s
+
 TcpServer.o: TcpServer.cpp.o
 
 .PHONY : TcpServer.o
@@ -426,6 +453,9 @@ help:
 	@echo "... SocketUtil.o"
 	@echo "... SocketUtil.i"
 	@echo "... SocketUtil.s"
+	@echo "... TcpConnection.o"
+	@echo "... TcpConnection.i"
+	@echo "... TcpConnection.s"
 	@echo "... TcpServer.o"
 	@echo "... TcpServer.i"
 	@echo "... TcpServer.s"

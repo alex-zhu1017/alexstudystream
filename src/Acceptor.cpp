@@ -24,11 +24,10 @@ void Acceptor::Listen(const char* ip, int port)
 	SocketUtil::setRequsePort(fd);
 	SocketUtil::setReuseAddr(fd);
     acceptChannel_.reset(new Channel(loop_, fd));
-    acceptChannel_->setReadCallback(std::bind(&Acceptor::handleRead, this));
-    
     acceptSocket_->bind(ip,port);
     acceptSocket_->listen();
-
+    
+    acceptChannel_->setReadCallback(std::bind(&Acceptor::handleRead, this));
     acceptChannel_->enableReading();
 
 }

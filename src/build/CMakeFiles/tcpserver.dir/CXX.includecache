@@ -6,23 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/home/alex/streaming/alexstudystream/src/Socket.cpp
-Socket.h
-/home/alex/streaming/alexstudystream/src/Socket.h
-sys/socket.h
+/home/alex/streaming/alexstudystream/src/Channel.h
+functional
 -
-unistd.h
+memory
+-
+
+/home/alex/streaming/alexstudystream/src/EventLoop.h
+memory
+-
+thread
+-
+atomic
+-
+
+/home/alex/streaming/alexstudystream/src/SocketUtil.h
+
+/home/alex/streaming/alexstudystream/src/TcpConnection.cpp
+TcpConnection.h
+/home/alex/streaming/alexstudystream/src/TcpConnection.h
+SocketUtil.h
+/home/alex/streaming/alexstudystream/src/SocketUtil.h
+functional
 -
 iostream
 -
-SocketUtil.h
-/home/alex/streaming/alexstudystream/src/SocketUtil.h
+EventLoop.h
+/home/alex/streaming/alexstudystream/src/EventLoop.h
 netinet/in.h
 -
-arpa/inet.h
+sys/types.h
+-
+unistd.h
+-
+string.h
 -
 
-/home/alex/streaming/alexstudystream/src/Socket.h
-
-/home/alex/streaming/alexstudystream/src/SocketUtil.h
+/home/alex/streaming/alexstudystream/src/TcpConnection.h
+Channel.h
+/home/alex/streaming/alexstudystream/src/Channel.h
 

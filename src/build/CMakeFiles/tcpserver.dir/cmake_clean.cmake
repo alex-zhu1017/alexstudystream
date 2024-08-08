@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/tcpserver.dir/Poller.cpp.o"
   "CMakeFiles/tcpserver.dir/Socket.cpp.o"
   "CMakeFiles/tcpserver.dir/SocketUtil.cpp.o"
+  "CMakeFiles/tcpserver.dir/TcpConnection.cpp.o"
   "CMakeFiles/tcpserver.dir/TcpServer.cpp.o"
   "CMakeFiles/tcpserver.dir/main.cpp.o"
   "tcpserver"

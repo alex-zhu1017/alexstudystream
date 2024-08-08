@@ -2,6 +2,8 @@
 #define ALEX_NET_TCPSERVER_H
 
 #include <memory>
+#include <map>
+#include "TcpConnection.h"
 
 namespace alex
 {
@@ -23,6 +25,9 @@ public:
 private:
     std::unique_ptr<Acceptor> acceptor_;
     EventLoop* loop_;
+
+    typedef std::map<std::string, TcpConnectionPtr> ConnectionMap;
+    ConnectionMap connections_;
 
 };
 

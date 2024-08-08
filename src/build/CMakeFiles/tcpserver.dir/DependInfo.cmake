@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/alex/streaming/alexstudystream/src/Poller.cpp" "/home/alex/streaming/alexstudystream/src/build/CMakeFiles/tcpserver.dir/Poller.cpp.o"
   "/home/alex/streaming/alexstudystream/src/Socket.cpp" "/home/alex/streaming/alexstudystream/src/build/CMakeFiles/tcpserver.dir/Socket.cpp.o"
   "/home/alex/streaming/alexstudystream/src/SocketUtil.cpp" "/home/alex/streaming/alexstudystream/src/build/CMakeFiles/tcpserver.dir/SocketUtil.cpp.o"
+  "/home/alex/streaming/alexstudystream/src/TcpConnection.cpp" "/home/alex/streaming/alexstudystream/src/build/CMakeFiles/tcpserver.dir/TcpConnection.cpp.o"
   "/home/alex/streaming/alexstudystream/src/TcpServer.cpp" "/home/alex/streaming/alexstudystream/src/build/CMakeFiles/tcpserver.dir/TcpServer.cpp.o"
   "/home/alex/streaming/alexstudystream/src/main.cpp" "/home/alex/streaming/alexstudystream/src/build/CMakeFiles/tcpserver.dir/main.cpp.o"
   )

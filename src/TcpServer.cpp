@@ -3,6 +3,7 @@
 #include "Acceptor.h"
 #include <functional>
 #include <iostream>
+
 using namespace alex;
 
 
@@ -29,4 +30,9 @@ void TcpServer::start(const char* ip, int port)
 void TcpServer::newConnection(int sockfd)
 {
     std::cout << "recv connection fd  " << sockfd <<  std::endl;
+
+    TcpConnectionPtr con(new TcpConnection(loop_, sockfd));
+    //TcpConnection *con = new  TcpConnection(loop_, sockfd);
+    connections_["client"] = con;
+
 }

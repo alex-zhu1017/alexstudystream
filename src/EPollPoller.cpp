@@ -105,7 +105,7 @@ void EPollPoller::poll(int timeoutMs)
         //     channel->handleEvent(events_[i].events);
             
         // }
-
+        std::cout<< "recv events happend" << std::endl;
          for(int i = 0; i < numEvnets; ++i)
         {
             Channel* channel = static_cast<Channel*>(events[i].data.ptr);
@@ -139,12 +139,32 @@ void EPollPoller::update(int operation, Channel* channel)
     {
          if (operation == EPOLL_CTL_DEL)
         {
-            //std::cout << "epoll_ctl op =" << operationToString(operation) << " fd =" << fd;
+            std::cout << "epoll_ctl op =" << operationToString(operation) << " fd =" << fd;
         }
         else
         {
-            //std:;cout << "epoll_ctl op =" << operationToString(operation) << " fd =" << fd;
+            std::cout << "epoll_ctl op =" << operationToString(operation) << " fd =" << fd;
         }
     }
+    else
+    {
+        std::cout << "epoll_ctl op =" << operationToString(operation) << " fd =" << fd;
+    }
 
+}
+
+const char* EPollPoller::operationToString(int op)
+{
+  switch (op)
+  {
+    case EPOLL_CTL_ADD:
+      return "ADD";
+    case EPOLL_CTL_DEL:
+      return "DEL";
+    case EPOLL_CTL_MOD:
+      return "MOD";
+    default:
+      assert(false && "ERROR op");
+      return "Unknown Operation";
+  }
 }

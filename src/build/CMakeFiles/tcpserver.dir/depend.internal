@@ -37,14 +37,23 @@ CMakeFiles/tcpserver.dir/Socket.cpp.o
 CMakeFiles/tcpserver.dir/SocketUtil.cpp.o
  /home/alex/streaming/alexstudystream/src/SocketUtil.cpp
  /home/alex/streaming/alexstudystream/src/SocketUtil.h
+CMakeFiles/tcpserver.dir/TcpConnection.cpp.o
+ /home/alex/streaming/alexstudystream/src/Channel.h
+ /home/alex/streaming/alexstudystream/src/EventLoop.h
+ /home/alex/streaming/alexstudystream/src/SocketUtil.h
+ /home/alex/streaming/alexstudystream/src/TcpConnection.cpp
+ /home/alex/streaming/alexstudystream/src/TcpConnection.h
 CMakeFiles/tcpserver.dir/TcpServer.cpp.o
  /home/alex/streaming/alexstudystream/src/Acceptor.h
  /home/alex/streaming/alexstudystream/src/Channel.h
  /home/alex/streaming/alexstudystream/src/EventLoop.h
  /home/alex/streaming/alexstudystream/src/Socket.h
+ /home/alex/streaming/alexstudystream/src/TcpConnection.h
  /home/alex/streaming/alexstudystream/src/TcpServer.cpp
  /home/alex/streaming/alexstudystream/src/TcpServer.h
 CMakeFiles/tcpserver.dir/main.cpp.o
+ /home/alex/streaming/alexstudystream/src/Channel.h
  /home/alex/streaming/alexstudystream/src/EventLoop.h
+ /home/alex/streaming/alexstudystream/src/TcpConnection.h
  /home/alex/streaming/alexstudystream/src/TcpServer.h
  /home/alex/streaming/alexstudystream/src/main.cpp

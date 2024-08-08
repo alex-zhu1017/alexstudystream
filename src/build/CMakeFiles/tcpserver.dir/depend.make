@@ -37,14 +37,23 @@ CMakeFiles/tcpserver.dir/Socket.cpp.o: ../SocketUtil.h
 CMakeFiles/tcpserver.dir/SocketUtil.cpp.o: ../SocketUtil.cpp
 CMakeFiles/tcpserver.dir/SocketUtil.cpp.o: ../SocketUtil.h
 
+CMakeFiles/tcpserver.dir/TcpConnection.cpp.o: ../Channel.h
+CMakeFiles/tcpserver.dir/TcpConnection.cpp.o: ../EventLoop.h
+CMakeFiles/tcpserver.dir/TcpConnection.cpp.o: ../SocketUtil.h
+CMakeFiles/tcpserver.dir/TcpConnection.cpp.o: ../TcpConnection.cpp
+CMakeFiles/tcpserver.dir/TcpConnection.cpp.o: ../TcpConnection.h
+
 CMakeFiles/tcpserver.dir/TcpServer.cpp.o: ../Acceptor.h
 CMakeFiles/tcpserver.dir/TcpServer.cpp.o: ../Channel.h
 CMakeFiles/tcpserver.dir/TcpServer.cpp.o: ../EventLoop.h
 CMakeFiles/tcpserver.dir/TcpServer.cpp.o: ../Socket.h
+CMakeFiles/tcpserver.dir/TcpServer.cpp.o: ../TcpConnection.h
 CMakeFiles/tcpserver.dir/TcpServer.cpp.o: ../TcpServer.cpp
 CMakeFiles/tcpserver.dir/TcpServer.cpp.o: ../TcpServer.h
 
+CMakeFiles/tcpserver.dir/main.cpp.o: ../Channel.h
 CMakeFiles/tcpserver.dir/main.cpp.o: ../EventLoop.h
+CMakeFiles/tcpserver.dir/main.cpp.o: ../TcpConnection.h
 CMakeFiles/tcpserver.dir/main.cpp.o: ../TcpServer.h
 CMakeFiles/tcpserver.dir/main.cpp.o: ../main.cpp
 
